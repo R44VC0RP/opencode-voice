@@ -1,0 +1,31 @@
+{
+  "name": "opencode-voice",
+  "version": "0.1.0",
+  "description": "OpenCode plugin for text-to-speech using ElevenLabs v3 with expressive audio tags",
+  "module": "index.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "elevenlabs",
+    "tts",
+    "text-to-speech",
+    "voice",
+    "audio"
+  ],
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.146",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
