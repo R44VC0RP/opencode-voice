@@ -2,7 +2,9 @@
 
 An [OpenCode](https://opencode.ai) plugin that adds text-to-speech capabilities using [ElevenLabs](https://elevenlabs.io) v3 with expressive audio tags.
 
-https://x.com/placeholder-demo-link
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20on%20X-black?style=for-the-badge&logo=x)](https://x.com/ryanvogel/status/2017625592217145734)
+
+https://x.com/ryanvogel/status/2017625592217145734
 
 ## Features
 
