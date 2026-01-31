@@ -16,7 +16,7 @@ https://x.com/placeholder-demo-link
 Run this one-liner to install and configure everything:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/anomalyco/opencode-voice/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/R44VC0RP/opencode-voice/main/setup.sh | bash
 ```
 
 The setup script will:
@@ -34,7 +34,7 @@ Then restart OpenCode!
 
 1. Clone or download this plugin:
 ```bash
-git clone https://github.com/anomalyco/opencode-voice.git ~/dev/opencode-voice
+git clone https://github.com/R44VC0RP/opencode-voice.git ~/dev/opencode-voice
 cd ~/dev/opencode-voice
 bun install
 ```

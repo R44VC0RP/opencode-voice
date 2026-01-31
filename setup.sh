@@ -5,7 +5,7 @@
 
 set -e
 
-REPO_URL="https://github.com/anomalyco/opencode-voice.git"
+REPO_URL="https://github.com/R44VC0RP/opencode-voice.git"
 INSTALL_DIR="$HOME/dev/opencode-voice"
 SECRETS_DIR="$HOME/.config/opencode/secrets"
 CONFIG_FILE="$HOME/.config/opencode/opencode.json"
