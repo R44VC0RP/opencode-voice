@@ -11,7 +11,26 @@ https://x.com/placeholder-demo-link
 - **Non-blocking** - Audio plays in background, control returns immediately
 - **macOS Native** - Uses `afplay` for reliable audio playback
 
-## Installation
+## Quick Install
+
+Run this one-liner to install and configure everything:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/anomalyco/opencode-voice/main/setup.sh | bash
+```
+
+The setup script will:
+- Clone the plugin to `~/dev/opencode-voice`
+- Install dependencies
+- Prompt for your ElevenLabs API key
+- Update your OpenCode config
+
+Then restart OpenCode!
+
+## Manual Installation
+
+<details>
+<summary>Click to expand manual steps</summary>
 
 1. Clone or download this plugin:
 ```bash
@@ -22,6 +41,7 @@ bun install
 
 2. Add your ElevenLabs API key:
 ```bash
+mkdir -p ~/.config/opencode/secrets
 echo "YOUR_API_KEY" > ~/.config/opencode/secrets/elevenlabs-key
 ```
 
@@ -29,12 +49,14 @@ echo "YOUR_API_KEY" > ~/.config/opencode/secrets/elevenlabs-key
 ```json
 {
   "plugin": [
-    "file:///path/to/opencode-voice"
+    "file:///Users/YOUR_USERNAME/dev/opencode-voice"
   ]
 }
 ```
 
 4. Restart OpenCode
+
+</details>
 
 ## Usage
 
