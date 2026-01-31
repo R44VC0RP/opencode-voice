@@ -4,7 +4,7 @@ An [OpenCode](https://opencode.ai) plugin that adds text-to-speech capabilities 
 
 [![Demo Video](https://img.shields.io/badge/Demo-Watch%20on%20X-black?style=for-the-badge&logo=x)](https://x.com/ryanvogel/status/2017625592217145734)
 
-https://x.com/ryanvogel/status/2017625592217145734
+https://github.com/user-attachments/assets/bdae8647-4a30-49c2-8fab-cb40221969b4
 
 ## Features
 
